@@ -1,0 +1,6 @@
+project:
+  name: @project.artifactId@
+  version: @project.version@
+
+server:
+  port: 8080
