@@ -4,6 +4,9 @@ project:
 
 server:
   port: 8080
+  # Enabling the below error to always will support returning error message parameter while using ApiException custom exp class
+  error:
+    include-message: always
   
 logging:
   level:
